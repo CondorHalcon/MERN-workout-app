@@ -130,7 +130,7 @@ or
 }
 ```
 
-### `UPDATE /api/workouts/:id`
+### `PATCH /api/workouts/:id`
 
 ```json
 {
