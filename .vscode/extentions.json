@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"jawandarajbir.react-vscode-extension-pack",
+		"xabikos.reactsnippets",
+		"burkeholland.simple-react-snippets",
+		"jasonnutter.search-node-modules",
+		"christian-kohler.npm-intellisense",
+		"exodiusstudios.comment-anchors",
+		"xabikos.javascriptsnippets",
+		"ms-vscode-remote.remote-containers",
+		"mongodb.mongodb-vscode"
+	]
+}

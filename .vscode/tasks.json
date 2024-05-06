@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Full Stack",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"detail": "Starts web and api projects",
+			"dependsOn": [
+				//"nodemon: start - api",
+				//"npm: start - web"
+			],
+			"command": "echo starting api and web"
+		}
+		/*{
+			"label": "nodemon: dev - api",
+			"group": {
+				"kind": "test",
+				"isDefault": false
+			},
+			"detail": "Starts the backend server (api)",
+			"type": "npm",
+			"script": "dev",
+			"path": "api",
+			"problemMatcher": []
+		},
+		{
+			"label": "npm: start - web",
+			"group": {
+				"kind": "test",
+				"isDefault": false
+			},
+			"detail": "Starts the frontend server (web)",
+			"type": "npm",
+			"script": "start",
+			"path": "web",
+			"problemMatcher": []
+		}*/
+	]
+}
