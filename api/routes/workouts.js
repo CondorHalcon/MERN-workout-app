@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 
 // NOTE: GET a single workout
 router.get("/:id", (req, res) => {
-	res.json({ msg: "GET all workouts" });
+	res.json({ msg: "GET a single workout" });
 });
 
 // NOTE: POST a new workout
@@ -18,7 +18,7 @@ router.post("/", (req, res) => {
 });
 // NOTE: DELETE a workout
 router.delete("/:id", (req, res) => {
-	res.json({ msg: "DELETE a new workout" });
+	res.json({ msg: "DELETE a workout" });
 });
 // NOTE: PATCH a workout
 router.patch("/:id", (req, res) => {
