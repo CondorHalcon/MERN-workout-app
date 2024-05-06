@@ -10,10 +10,10 @@
 			"detail": "Starts web and api projects",
 			"dependsOn": [
 				//"nodemon: start - api",
-				//"npm: start - web"
+				"npm: start - web"
 			],
 			"command": "echo starting api and web"
-		}
+		},
 		/*{
 			"label": "nodemon: dev - api",
 			"group": {
@@ -25,7 +25,7 @@
 			"script": "dev",
 			"path": "api",
 			"problemMatcher": []
-		},
+		},*/
 		{
 			"label": "npm: start - web",
 			"group": {
@@ -37,6 +37,6 @@
 			"script": "start",
 			"path": "web",
 			"problemMatcher": []
-		}*/
+		}
 	]
 }
