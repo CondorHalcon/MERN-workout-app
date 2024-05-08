@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
 	return (
-		<header className="mb-3">
+		<header className="mb-3 sticky-top">
 			<nav className="navbar bg-primary">
 				<div className="container container-fluid">
 					<Link to="/" className="navbar-brand">
