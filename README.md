@@ -17,7 +17,16 @@ Tutorial Repo: [@iamshaunjp/MERN-Stack-Tutorial](https://github.com/iamshaunjp/M
 
 ## API
 
-### `GET /api/workouts/`
+All API requests can return an status code `500`
+```js
+500 Internal Server Error
+```
+```json
+{ "error": "Error Message" }
+```
+### Workouts
+
+#### `GET /api/workouts/`
 
 ###### Response
 
@@ -54,7 +63,7 @@ Tutorial Repo: [@iamshaunjp/MERN-Stack-Tutorial](https://github.com/iamshaunjp/M
 ]
 ```
 
-### `POST /api/workouts/`
+#### `POST /api/workouts/`
 
 ```json
 {
@@ -87,7 +96,7 @@ or
 400 Bad Request
 ```
 
-### `GET /api/workouts/:id`
+#### `GET /api/workouts/:id`
 
 ###### Response
 
@@ -130,7 +139,7 @@ or
 }
 ```
 
-### `UPDATE /api/workouts/:id`
+#### `PATCH /api/workouts/:id`
 
 ```json
 {
@@ -173,7 +182,7 @@ or
 }
 ```
 
-### `DELETE /api/workouts/:id`
+#### `DELETE /api/workouts/:id`
 
 ###### Response
 
