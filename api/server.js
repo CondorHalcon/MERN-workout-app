@@ -17,10 +17,10 @@ app.use((req, res, next) => {
 
 // ANCHOR: routes
 app.get("/", (req, res) => {
-	res.status(200).json({ msg: "Hello World! Welcome to the api." });
+	res.status(200).json({ msg: "Hello World! Welcome to the Workout api." });
 });
 app.get("/api", (req, res) => {
-	res.status(200).json({ msg: "Hello World! Welcome to the api." });
+	res.status(200).json({ msg: "Hello World! Welcome to the Workout api." });
 });
 app.use("/api/workouts", workoutRoutes);
 
