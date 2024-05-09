@@ -18,11 +18,14 @@ const Home = () => {
 			}
 		};
 		fetchWorkouts();
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<main className="home container">
-			<div className="row">
+			<div className="d-flex flex-row-reverse">
+				<div className="col">
+					<WorkoutForm key={0} />
+				</div>
 				<div className="col-8">
 					{workouts &&
 						workouts.map((workout) => (
@@ -31,9 +34,6 @@ const Home = () => {
 								workout={workout}
 							/>
 						))}
-				</div>
-				<div className="col">
-					<WorkoutForm />
 				</div>
 			</div>
 		</main>
