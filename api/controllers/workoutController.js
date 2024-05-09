@@ -47,12 +47,12 @@ const postWorkout = async (req, res) => {
 		emptyFields.push("reps");
 	}
 	if (emptyFields.length == 1) {
-		res.status(400).json({
+		return res.status(400).json({
 			error: "Required field is empty.",
 			emptyFields,
 		});
 	} else if (emptyFields.length > 0) {
-		res.status(400).json({
+		return res.status(400).json({
 			error: "Required fields are empty",
 			emptyFields,
 		});
