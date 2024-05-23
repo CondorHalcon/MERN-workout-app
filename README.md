@@ -24,9 +24,8 @@ All API requests can return an status code `500`
 ```json
 { "error": "Error Message" }
 ```
-### Workouts
 
-#### `GET /api/workouts/`
+### `GET /api/workouts/`
 
 ###### Response
 
@@ -63,7 +62,7 @@ All API requests can return an status code `500`
 ]
 ```
 
-#### `POST /api/workouts/`
+### `POST /api/workouts/`
 
 ```json
 {
@@ -96,7 +95,7 @@ or
 400 Bad Request
 ```
 
-#### `GET /api/workouts/:id`
+### `GET /api/workouts/:id`
 
 ###### Response
 
@@ -139,7 +138,7 @@ or
 }
 ```
 
-#### `PATCH /api/workouts/:id`
+### `PATCH /api/workouts/:id`
 
 ```json
 {
@@ -182,7 +181,7 @@ or
 }
 ```
 
-#### `DELETE /api/workouts/:id`
+### `DELETE /api/workouts/:id`
 
 ###### Response
 
